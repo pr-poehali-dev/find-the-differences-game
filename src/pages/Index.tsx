@@ -32,6 +32,31 @@ const levels: Level[] = [
     ],
     difficulty: 'easy',
   },
+  {
+    id: 2,
+    image1: 'https://cdn.poehali.dev/projects/07cf2143-2ce8-428a-b69f-5edaaa4c665c/files/2c100ec3-ffc4-47b5-8b05-7a9be6dd83f4.jpg',
+    image2: 'https://cdn.poehali.dev/projects/07cf2143-2ce8-428a-b69f-5edaaa4c665c/files/2c100ec3-ffc4-47b5-8b05-7a9be6dd83f4.jpg',
+    differences: [
+      { id: 1, x: 25, y: 30 },
+      { id: 2, x: 55, y: 45 },
+      { id: 3, x: 70, y: 60 },
+      { id: 4, x: 40, y: 75 },
+    ],
+    difficulty: 'medium',
+  },
+  {
+    id: 3,
+    image1: 'https://cdn.poehali.dev/projects/07cf2143-2ce8-428a-b69f-5edaaa4c665c/files/623fe7cb-2245-4456-b7a6-671ab388db03.jpg',
+    image2: 'https://cdn.poehali.dev/projects/07cf2143-2ce8-428a-b69f-5edaaa4c665c/files/89e5faea-a7ab-4fb4-89a0-4f9225d9074c.jpg',
+    differences: [
+      { id: 1, x: 20, y: 35 },
+      { id: 2, x: 45, y: 50 },
+      { id: 3, x: 75, y: 40 },
+      { id: 4, x: 60, y: 70 },
+      { id: 5, x: 35, y: 80 },
+    ],
+    difficulty: 'hard',
+  },
 ];
 
 const Index = () => {
